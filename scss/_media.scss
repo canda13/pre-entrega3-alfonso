@@ -1,0 +1,105 @@
+@media only screen and (max-width: 767px) {
+  
+    header{
+      width: 90%;
+      padding: 0 20px;
+    }
+    nav {
+      font-family: 'Inter';
+      position: absolute;
+      left: -300px;
+      top: 0;
+      z-index: 999;
+      width: 280px;
+      height: 100vh;
+      background-color: #fefefe;
+      transition: 0.2s;
+      box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+    #nav_check:checked ~ nav {
+      left: 0;
+    }
+    nav .logo {
+      display: block;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+    nav ul {
+      display: block;
+      padding: 0 20px;
+      margin-top: 30px;
+    }
+    nav ul li a {
+      margin-bottom: 5px;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .titulo_index{
+      font-family: Abril Fatface;
+      font-size: 39px;
+      line-height: 54px;
+      letter-spacing: 1px;
+      padding-top: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .titulo_historia{
+      font-family: Abril Fatface;
+      font-size: 39px;
+      line-height: 54px;
+      letter-spacing: 1px;
+      padding-top: 100px;
+    }
+  }
+          
+  @media screen and (max-width: 880px){
+    .contact-box{
+      grid-template-columns: 1fr;
+    }
+    .left{
+      height: 200px;
+    }
+  }
+      
+  @media screen and (max-width: 879px) {
+    .info {
+        flex-direction: column;
+    }
+  
+    .cards {
+        padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:575px) {
+    .info {
+        padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+  
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .cards {
+        padding: 1rem;
+    }
+  
+  }
+    
